@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allows connecting to your local test server (e.g. 192.168.x.x) over plain HTTP/WS.
+         Remove this once you deploy behind HTTPS for production. -->
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
